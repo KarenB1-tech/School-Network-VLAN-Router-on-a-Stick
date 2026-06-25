@@ -4,17 +4,17 @@ Cisco Packet Tracer project demonstrating VLAN segmentation, trunk links, and in
 
 ## Project Overview
 
-This Cisco Packet Tracer project demonstrates VLAN segmentation, trunk link configuration, and inter-VLAN routing using the Router-on-a-Stick method.
+This Cisco Packet Tracer project demonstrates VLAN segmentation, trunk configuration, and inter-VLAN routing using the Router-on-a-Stick method.
 
-## Technologies Used
+## Network Topology
 
-- Cisco Packet Tracer
-- VLANs
-- Trunking (802.1Q)
-- Router-on-a-Stick
-- Inter-VLAN Routing
+![Network Topology](01-School-Network-Topology.jpg)
 
 ## VLAN Configuration
+
+![VLAN Configuration](02-School-Network-VLAN-Configuration.jpg)
+
+## VLANs Used
 
 | VLAN | Name |
 |------|------|
@@ -22,26 +22,49 @@ This Cisco Packet Tracer project demonstrates VLAN segmentation, trunk link conf
 | 20 | TEACHERS |
 | 30 | STUDENTS |
 
+## Teacher VLAN Port Assignment
+
+![Teacher VLAN](03-Teacher-VLAN-Port-Assignment.jpg)
+
+## Student VLAN Port Assignment
+
+![Student VLAN](04-Student-VLAN-Port-Assignment.jpg)
+
+## Trunk Configuration
+
+![Trunk Configuration](05-Trunk-Configuration.jpg)
+
+## Router Subinterfaces
+
+![Router Subinterfaces](06-Router-Subinterfaces.jpg)
+
+## Router-on-a-Stick VLAN Test
+
+![VLAN20 Test](07-Router-on-a-Stick-VLAN20-Test.jpg)
+
+## Inter-VLAN Routing Test
+
+![Inter-VLAN Routing Test](08-Inter-VLAN-Routing-Test.jpg)
+
 ## Skills Demonstrated
 
-- VLAN creation and management
-- Switch port assignment
-- Trunk configuration
-- Router subinterface configuration
-- Inter-VLAN communication
-- Network troubleshooting
+- VLAN Creation and Management
+- Switch Port Assignment
+- 802.1Q Trunk Configuration
+- Router-on-a-Stick Configuration
+- Inter-VLAN Routing
+- Network Troubleshooting
+- Connectivity Testing
 
-## Project Files
+## Technologies Used
 
-- School Network Topology
-- VLAN Configuration
-- Teacher VLAN Port Assignment
-- Student VLAN Port Assignment
-- Trunk Configuration
-- Router Subinterfaces
-- VLAN Connectivity Testing
-- Inter-VLAN Routing Testing
+- Cisco Packet Tracer
+- Cisco Switches
+- Cisco Router
+- VLANs
+- Trunking
+- Inter-VLAN Routing
 
 ## Results
 
-Successfully configured VLAN segmentation and verified communication between different VLANs through Router-on-a-Stick inter-VLAN routing.
+Successfully configured VLAN segmentation and verified communication between multiple VLANs through Router-on-a-Stick inter-VLAN routing.
