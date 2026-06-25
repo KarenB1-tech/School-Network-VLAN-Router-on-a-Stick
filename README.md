@@ -61,7 +61,7 @@ This Cisco Packet Tracer project demonstrates VLAN segmentation, trunk configura
 - Cisco Switches
 - Cisco Router
 - VLANs
-- Trunking
+- 802.1Q Trunking
 - Inter-VLAN Routing
 
 ## Results
